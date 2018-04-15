@@ -1,4 +1,8 @@
 site_name: Keeplight
+site_url: https://keeplight.io
+repo_url: https://github.com/keeplight/documentation
+repo_name: 'GitHub'
+site_author: Nick Sjostrom
 pages:
   - Home: index.md
   - User Guide:
