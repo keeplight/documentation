@@ -1,1 +1,0 @@
-Keeplight is an open source project maintained by Nick Sjostrom.
