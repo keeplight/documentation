@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>/</loc>
+     <loc>https://keeplight.io/</loc>
      <lastmod>2018-04-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -12,41 +12,19 @@
     
         
     <url>
-     <loc>/user/sites/</loc>
+     <loc>https://keeplight.io/user/sites/</loc>
      <lastmod>2018-04-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/user/assets/</loc>
+     <loc>https://keeplight.io/user/assets/</loc>
      <lastmod>2018-04-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/user/settings/</loc>
-     <lastmod>2018-04-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>/api/session/</loc>
-     <lastmod>2018-04-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/api/sites/</loc>
-     <lastmod>2018-04-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/api/assets/</loc>
+     <loc>https://keeplight.io/user/settings/</loc>
      <lastmod>2018-04-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -54,8 +32,30 @@
     
 
     
+        
     <url>
-     <loc>/about/</loc>
+     <loc>https://keeplight.io/api/session/</loc>
+     <lastmod>2018-04-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://keeplight.io/api/sites/</loc>
+     <lastmod>2018-04-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://keeplight.io/api/assets/</loc>
+     <lastmod>2018-04-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>https://keeplight.io/about/</loc>
      <lastmod>2018-04-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
