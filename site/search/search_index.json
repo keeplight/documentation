@@ -1,0 +1,204 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to Keeplight!\n\n\nKeepLight lets you monitor and run performance reports against your sites and web applications.\n\n\nSites\n\n\nConfigure and run latency or Lighthouse tests against your websites.\n\n\nAssets\n\n\nMonitor latency to your different assets around the world.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-keeplight", 
+            "text": "KeepLight lets you monitor and run performance reports against your sites and web applications.", 
+            "title": "Welcome to Keeplight!"
+        }, 
+        {
+            "location": "/#sites", 
+            "text": "Configure and run latency or Lighthouse tests against your websites.", 
+            "title": "Sites"
+        }, 
+        {
+            "location": "/#assets", 
+            "text": "Monitor latency to your different assets around the world.", 
+            "title": "Assets"
+        }, 
+        {
+            "location": "/user/sites/", 
+            "text": "Performance Tests\n\n\nLighthouse Tests\n\n\nAlerts\n\n\nSettings", 
+            "title": "Sites"
+        }, 
+        {
+            "location": "/user/sites/#performance-tests", 
+            "text": "", 
+            "title": "Performance Tests"
+        }, 
+        {
+            "location": "/user/sites/#lighthouse-tests", 
+            "text": "", 
+            "title": "Lighthouse Tests"
+        }, 
+        {
+            "location": "/user/sites/#alerts", 
+            "text": "", 
+            "title": "Alerts"
+        }, 
+        {
+            "location": "/user/sites/#settings", 
+            "text": "", 
+            "title": "Settings"
+        }, 
+        {
+            "location": "/user/assets/", 
+            "text": "Create\n\n\nTest Suites\n\n\nResults", 
+            "title": "Assets"
+        }, 
+        {
+            "location": "/user/assets/#create", 
+            "text": "", 
+            "title": "Create"
+        }, 
+        {
+            "location": "/user/assets/#test-suites", 
+            "text": "", 
+            "title": "Test Suites"
+        }, 
+        {
+            "location": "/user/assets/#results", 
+            "text": "", 
+            "title": "Results"
+        }, 
+        {
+            "location": "/user/settings/", 
+            "text": "Delete Site", 
+            "title": "Settings"
+        }, 
+        {
+            "location": "/user/settings/#delete-site", 
+            "text": "", 
+            "title": "Delete Site"
+        }, 
+        {
+            "location": "/api/session/", 
+            "text": "Create User\n\n\n$ curl -s -X POST \\\n  ${HOST}/api/register \\\n  -d '{\n    \nemail\n: \ntest03@gmail.com\n,\n    \npassword\n: \nhunter1\n\n  }'\n\n{\n  \nactive\n: false,\n  \nauthorization_token\n: \ntoken\n,\n  \nemail\n: \ntwo@email.com\n,\n  \nuser_id\n: 3,\n  \nmessage\n: \nUser created successfully!\n,\n  \nname\n: \nNick\n,\n  \njoined\n: \n2017-08-27T13:17:06.213240067-04:00\n\n}\n\n\n\n\nGet New Session\n\n\n$ curl -s -X POST \\\n  ${HOST}/api/sessions/info \\\n  -H 'Authorization: Basic \nbase64Encode(email:password)\n'\n\n\n\n\nGet Session Info\n\n\n$ curl -s -X GET \\\n  ${HOST}/api/sessions/info \\\n  -H 'Authorization: Bearer \ntoken\n'\n\n{\n  \nactive\n: false,\n  \nemail\n: \ntest02@gmail.com\n,\n  \nexp\n: 1503689745,\n  \nuser_id\n: 4,\n  \nusername\n: \ntest01\n\n}", 
+            "title": "Sessions"
+        }, 
+        {
+            "location": "/api/session/#create-user", 
+            "text": "$ curl -s -X POST \\\n  ${HOST}/api/register \\\n  -d '{\n     email :  test03@gmail.com ,\n     password :  hunter1 \n  }'\n\n{\n   active : false,\n   authorization_token :  token ,\n   email :  two@email.com ,\n   user_id : 3,\n   message :  User created successfully! ,\n   name :  Nick ,\n   joined :  2017-08-27T13:17:06.213240067-04:00 \n}", 
+            "title": "Create User"
+        }, 
+        {
+            "location": "/api/session/#get-new-session", 
+            "text": "$ curl -s -X POST \\\n  ${HOST}/api/sessions/info \\\n  -H 'Authorization: Basic  base64Encode(email:password) '", 
+            "title": "Get New Session"
+        }, 
+        {
+            "location": "/api/session/#get-session-info", 
+            "text": "$ curl -s -X GET \\\n  ${HOST}/api/sessions/info \\\n  -H 'Authorization: Bearer  token '\n\n{\n   active : false,\n   email :  test02@gmail.com ,\n   exp : 1503689745,\n   user_id : 4,\n   username :  test01 \n}", 
+            "title": "Get Session Info"
+        }, 
+        {
+            "location": "/api/sites/", 
+            "text": "Create Site\n\n\n$ curl -s -X POST \\\n  ${HOST}/api/users/1/sites \\\n  -H 'Authorization: Bearer \ntoken\n'\n{\n  \nname\n: \nTest Site 01\n,\n  \nurl\n: \nhttps://sjostrom.io\n,\n  \nlocations\n: [\n        {\n            \nID\n: 1,\n            \nname\n: \nNew York\n,\n            \ncountry\n: \nusa\n,\n            \ncode\n: \num\n\n        },\n        {\n            \nID\n: 2,\n            \nname\n: \nSan Francisco\n,\n            \ncountry\n: \nusa\n,\n            \ncode\n: \num\n\n        }\n  ]\n}\n\n\n\n\nDelete Site\n\n\n\n\n\n\n\nCreate Alarm\n\n\n\n\n\n\n\nEdit Alarm\n\n\n\n\n\n\n\nDelete Alarm\n\n\n\n\n\n\n\nPerformance - Schedule Test\n\n\n\n\n\n\n\nPerformance - Edit Test\n\n\n\n\n\n\n\nPerformance - Get Tests\n\n\n\n\n\n\n\nPerformance - Delete Tests\n\n\n\n\n\n\n\nLighthouse - Schedule Test\n\n\n\n\n\n\n\nLighthouse - Edit Test\n\n\n\n\n\n\n\nLighthouse - Get Tests\n\n\n\n\n\n\n\nLighthouse - Delete Tests", 
+            "title": "Sites"
+        }, 
+        {
+            "location": "/api/sites/#create-site", 
+            "text": "$ curl -s -X POST \\\n  ${HOST}/api/users/1/sites \\\n  -H 'Authorization: Bearer  token '\n{\n   name :  Test Site 01 ,\n   url :  https://sjostrom.io ,\n   locations : [\n        {\n             ID : 1,\n             name :  New York ,\n             country :  usa ,\n             code :  um \n        },\n        {\n             ID : 2,\n             name :  San Francisco ,\n             country :  usa ,\n             code :  um \n        }\n  ]\n}", 
+            "title": "Create Site"
+        }, 
+        {
+            "location": "/api/sites/#delete-site", 
+            "text": "", 
+            "title": "Delete Site"
+        }, 
+        {
+            "location": "/api/sites/#create-alarm", 
+            "text": "", 
+            "title": "Create Alarm"
+        }, 
+        {
+            "location": "/api/sites/#edit-alarm", 
+            "text": "", 
+            "title": "Edit Alarm"
+        }, 
+        {
+            "location": "/api/sites/#delete-alarm", 
+            "text": "", 
+            "title": "Delete Alarm"
+        }, 
+        {
+            "location": "/api/sites/#performance-schedule-test", 
+            "text": "", 
+            "title": "Performance - Schedule Test"
+        }, 
+        {
+            "location": "/api/sites/#performance-edit-test", 
+            "text": "", 
+            "title": "Performance - Edit Test"
+        }, 
+        {
+            "location": "/api/sites/#performance-get-tests", 
+            "text": "", 
+            "title": "Performance - Get Tests"
+        }, 
+        {
+            "location": "/api/sites/#performance-delete-tests", 
+            "text": "", 
+            "title": "Performance - Delete Tests"
+        }, 
+        {
+            "location": "/api/sites/#lighthouse-schedule-test", 
+            "text": "", 
+            "title": "Lighthouse - Schedule Test"
+        }, 
+        {
+            "location": "/api/sites/#lighthouse-edit-test", 
+            "text": "", 
+            "title": "Lighthouse - Edit Test"
+        }, 
+        {
+            "location": "/api/sites/#lighthouse-get-tests", 
+            "text": "", 
+            "title": "Lighthouse - Get Tests"
+        }, 
+        {
+            "location": "/api/sites/#lighthouse-delete-tests", 
+            "text": "", 
+            "title": "Lighthouse - Delete Tests"
+        }, 
+        {
+            "location": "/api/assets/", 
+            "text": "Create Asset\n\n\nDelete Asset\n\n\nCreate Test Suite\n\n\nRun Tests\n\n\nDelete Test Suite", 
+            "title": "Assets"
+        }, 
+        {
+            "location": "/api/assets/#create-asset", 
+            "text": "", 
+            "title": "Create Asset"
+        }, 
+        {
+            "location": "/api/assets/#delete-asset", 
+            "text": "", 
+            "title": "Delete Asset"
+        }, 
+        {
+            "location": "/api/assets/#create-test-suite", 
+            "text": "", 
+            "title": "Create Test Suite"
+        }, 
+        {
+            "location": "/api/assets/#run-tests", 
+            "text": "", 
+            "title": "Run Tests"
+        }, 
+        {
+            "location": "/api/assets/#delete-test-suite", 
+            "text": "", 
+            "title": "Delete Test Suite"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "Keeplight is an open source project maintained by Nick Sjostrom.", 
+            "title": "About"
+        }
+    ]
+}
